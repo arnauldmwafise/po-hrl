@@ -134,7 +134,7 @@ If you use this software, please cite it (see also `CITATION.cff`):
   author  = {Arnauld Mesinga Mwafise},
   year    = {2026},
   version = {1.0.0},
-  doi     = {10.5281/zenodo.XXXXXXX},
+  doi     = {10.5281/zenodo.24354350},
   url     = {https://github.com/arnauldmwafise/po-hrl}
 }
 ```
