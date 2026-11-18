@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "PO-HRL: Partial-Order Hierarchical Reinforcement Learning"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-16
 license: MIT
 repository-code: "https://github.com/arnauldmwafise/po-hrl"
