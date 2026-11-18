@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and the accompanying paper."
+title: "PO-HRL: Partial-Order Hierarchical Reinforcement Learning"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/GITHUB-USER/po-hrl"
+doi: "10.5281/zenodo.XXXXXXX"
+keywords:
+  - hierarchical reinforcement learning
+  - partially ordered sets
+  - credit assignment
+  - mathematical reasoning
+  - large language models
+  - Shapley value
+authors:
+  - family-names: "FAMILY-NAME"
+    given-names: "GIVEN-NAMES"
+    affiliation: "AFFILIATION"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+preferred-citation:
+  type: article
+  title: "When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models"
+  authors:
+    - family-names: "FAMILY-NAME"
+      given-names: "GIVEN-NAMES"
+      affiliation: "AFFILIATION"
+  journal: "Journal of Machine Learning Research (submitted)"
+  year: 2026

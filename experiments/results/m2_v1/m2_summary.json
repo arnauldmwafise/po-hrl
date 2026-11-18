@@ -1,0 +1,48 @@
+{
+ "all": {
+  "problems": 130,
+  "pohrl_acc": 0.31153846153846154,
+  "cot_acc": 0.33653846153846156,
+  "mean_rounds": 3.330769230769231,
+  "pohrl_words": 487.23846153846154,
+  "cot_words": 708.4807692307693,
+  "fallback_rate": 0.5230769230769231,
+  "median_width": 1.0,
+  "share_width_ge2": 0.24615384615384617
+ },
+ "by_width": {
+  "1": {
+   "problems": 30,
+   "pohrl_acc": 0.725,
+   "cot_acc": 0.5666666666666667,
+   "mean_rounds": 6.933333333333334,
+   "pohrl_words": 509.39166666666665,
+   "cot_words": 531.825,
+   "fallback_rate": 0.0,
+   "median_width": 1.0,
+   "share_width_ge2": 0.0
+  },
+  "2-3": {
+   "problems": 30,
+   "pohrl_acc": 0.45,
+   "cot_acc": 0.5666666666666667,
+   "mean_rounds": 4.833333333333333,
+   "pohrl_words": 359.96666666666664,
+   "cot_words": 473.925,
+   "fallback_rate": 0.0,
+   "median_width": 2.0,
+   "share_width_ge2": 1.0
+  },
+  "4+": {
+   "problems": 2,
+   "pohrl_acc": 0.0,
+   "cot_acc": 0.375,
+   "mean_rounds": 6.0,
+   "pohrl_words": 828.875,
+   "cot_words": 701.75,
+   "fallback_rate": 0.0,
+   "median_width": 4.0,
+   "share_width_ge2": 1.0
+  }
+ }
+}

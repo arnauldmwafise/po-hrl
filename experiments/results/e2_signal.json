@@ -1,0 +1,86 @@
+[
+ {
+  "family": "chain",
+  "p": 0.6,
+  "outcome": 0.95175,
+  "chain_prefix": 0.00025,
+  "ideal": 0.00025
+ },
+ {
+  "family": "chain",
+  "p": 0.7,
+  "outcome": 0.79125,
+  "chain_prefix": 0.0,
+  "ideal": 0.0
+ },
+ {
+  "family": "chain",
+  "p": 0.8,
+  "outcome": 0.4015,
+  "chain_prefix": 0.0,
+  "ideal": 0.0
+ },
+ {
+  "family": "chain",
+  "p": 0.9,
+  "outcome": 0.034,
+  "chain_prefix": 0.0005,
+  "ideal": 0.0005
+ },
+ {
+  "family": "w3",
+  "p": 0.6,
+  "outcome": 0.952,
+  "chain_prefix": 0.0005,
+  "ideal": 0.0
+ },
+ {
+  "family": "w3",
+  "p": 0.7,
+  "outcome": 0.79475,
+  "chain_prefix": 0.0005,
+  "ideal": 0.0
+ },
+ {
+  "family": "w3",
+  "p": 0.8,
+  "outcome": 0.40475,
+  "chain_prefix": 0.0,
+  "ideal": 0.0
+ },
+ {
+  "family": "w3",
+  "p": 0.9,
+  "outcome": 0.031,
+  "chain_prefix": 0.0,
+  "ideal": 0.0
+ },
+ {
+  "family": "w9",
+  "p": 0.6,
+  "outcome": 0.9465,
+  "chain_prefix": 0.00075,
+  "ideal": 0.0
+ },
+ {
+  "family": "w9",
+  "p": 0.7,
+  "outcome": 0.7935,
+  "chain_prefix": 0.00025,
+  "ideal": 0.0
+ },
+ {
+  "family": "w9",
+  "p": 0.8,
+  "outcome": 0.39975,
+  "chain_prefix": 0.0,
+  "ideal": 0.0
+ },
+ {
+  "family": "w9",
+  "p": 0.9,
+  "outcome": 0.0345,
+  "chain_prefix": 0.0,
+  "ideal": 0.0005
+ }
+]

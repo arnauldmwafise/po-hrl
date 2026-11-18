@@ -1,0 +1,24 @@
+{
+  "revisions": {
+    "EleutherAI/hendrycks_math": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+    "HuggingFaceH4/MATH-500": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+    "HuggingFaceH4/aime_2024": "2fe88a2f1091d5048c0f36abc874fb997b3dd99a"
+  },
+  "counts": {
+    "m3_train": 1200,
+    "m3_eval": 367,
+    "m2": 130
+  },
+  "rules": {
+    "m3_train": "EleutherAI/hendrycks_math train, configs ['algebra', 'counting_and_probability', 'geometry', 'intermediate_algebra', 'number_theory', 'prealgebra', 'precalculus'] in this order, levels 3-5, random.Random(0).shuffle, first 1200, ids tr0..tr1199",
+    "m3_eval": "HuggingFaceH4/MATH-500 test, level >= 3",
+    "m2": "HuggingFaceH4/MATH-500 test, random.Random(0).shuffle, stable sort by level, last 100; then all of HuggingFaceH4/aime_2024 train with ids prefixed 'aime24-'"
+  },
+  "check_against_results": [
+    "m3_train: 1200 problems (ids tr0..tr1199 are positions, so this checks the count only; see the text check below)",
+    "m3_eval: 367 problems, ids identical to the stored results",
+    "m2: 130 problems, ids identical to the stored results",
+    "m3_train text check (1200 cached plans, 7500 MATH training problems): the assigned problem is the best match for 69.7% of plans and in the top 20 for 90.9% (median rank 1); for a random pairing, 0.1% and 0.3% (median rank 3492) (consistent with the selection)"
+  ],
+  "notes": "Written by experiments/llm_data.py on Google Colab on 18 November 2026. The m3_train selection was also reproduced independently from the downloaded MATH training rows, with identical rows and checksums for all 1,200 problems; the text check above was computed on those rows with the released script."
+}

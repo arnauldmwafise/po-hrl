@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pohrl"
+version = "1.0.0"
+description = "Partial-Order Hierarchical Reinforcement Learning: order-theoretic credit assignment for LLM reasoning"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "AUTHOR NAME(S)"}]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+plots = ["matplotlib>=3.7"]
+transformer = ["jax>=0.4", "optax>=0.1.7"]
+data = ["datasets>=2.18", "huggingface_hub>=0.20"]
+llm = ["torch>=2.1", "transformers>=4.51", "vllm>=0.8", "peft>=0.10", "datasets>=2.18", "sympy>=1.12", "antlr4-python3-runtime==4.11"]
+
+[tool.setuptools]
+packages = ["pohrl", "pohrl_llm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
