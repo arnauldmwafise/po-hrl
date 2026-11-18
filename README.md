@@ -1,5 +1,7 @@
 # PO-HRL: Partial-Order Hierarchical Reinforcement Learning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24354350.svg)](https://doi.org/10.5281/zenodo.24354350)
+
 Code, data, result logs and analysis scripts for
 
 > **When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models.**
