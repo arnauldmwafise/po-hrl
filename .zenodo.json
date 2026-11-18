@@ -4,9 +4,9 @@
   "description": "Code, tests, notebooks, data, result logs and analysis scripts for 'When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models'. Includes an order-theoretic library (posets, ideals, linear extensions, exact precedence Shapley and Owen credit), a language-model pipeline for planning, round-based execution, step verification and LoRA training with flat, chain, random-order chain and poset credit (and an experimental local-credit option for follow-up work), the controlled experiments, the synthetic multi-part data set, and every result file used in the paper.",
   "creators": [
     {
-      "name": "FAMILY-NAME, GIVEN-NAMES",
-      "affiliation": "AFFILIATION",
-      "orcid": "0000-0000-0000-0000"
+      "name": "Mesinga Mwafise, Arnauld",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0003-3782-7933"
     }
   ],
   "license": "MIT",
