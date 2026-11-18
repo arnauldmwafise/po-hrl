@@ -5,7 +5,7 @@ version: 1.0.1
 date-released: 2026-11-16
 license: MIT
 repository-code: "https://github.com/arnauldmwafise/po-hrl"
-doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.24354350"
 keywords:
   - hierarchical reinforcement learning
   - partially ordered sets
