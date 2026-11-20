@@ -1,6 +1,7 @@
 # PO-HRL: Partial-Order Hierarchical Reinforcement Learning
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24354350.svg)](https://doi.org/10.5281/zenodo.24354350)
+[![Preprint](https://img.shields.io/badge/Preprints.org-10.20944%2Fpreprints202611.2203.v1-blue)](https://doi.org/10.20944/preprints202611.2203.v1)
 
 Code, data, result logs and analysis scripts for
 
