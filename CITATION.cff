@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the paper below and the software."
 title: "PO-HRL: Partial-Order Hierarchical Reinforcement Learning"
 version: 1.0.1
-date-released: 2026-11-16
+date-released: 2026-11-18
 license: MIT
 repository-code: "https://github.com/arnauldmwafise/po-hrl"
 doi: "10.5281/zenodo.24354350"
@@ -16,5 +16,16 @@ keywords:
 authors:
   - family-names: "Mesinga Mwafise"
     given-names: "Arnauld"
-    affiliation: "Independent Researcher"
     orcid: "https://orcid.org/0009-0003-3782-7933"
+preferred-citation:
+  type: article
+  title: "When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models"
+  authors:
+    - family-names: "Mesinga Mwafise"
+      given-names: "Arnauld"
+      orcid: "https://orcid.org/0009-0003-3782-7933"
+  journal: "Preprints"
+  year: 2026
+  month: 11
+  doi: "10.20944/preprints202611.2203.v1"
+  url: "https://www.preprints.org/manuscript/202611.2203/v1"
