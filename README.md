@@ -6,7 +6,7 @@
 Code, data, result logs and analysis scripts for
 
 > **When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models.**
-> Arnauld Mesinga Mwafise, 2026.
+> Arnauld Mesinga Mwafise. *Preprints* 2026, 202611.2203. <https://doi.org/10.20944/preprints202611.2203.v1>
 
 Hierarchical reinforcement learning (HRL) methods for mathematical reasoning in large language models write
 plans as sequences. PO-HRL represents a plan as a partially ordered set (poset) of subgoals instead, executes
@@ -127,20 +127,26 @@ The function `load_problems` in `experiments/llm_data.py` returns the problems l
 
 ## Citation
 
-If you use this software, please cite it (see also `CITATION.cff`):
+If you use this software, please cite the paper and the archived software (see also `CITATION.cff`):
 
 ```bibtex
+@article{mesingamwafise2026order,
+  title   = {When Does Order Matter? Partial-Order Hierarchical Reinforcement Learning for Mathematical Reasoning in Language Models},
+  author  = {Mesinga Mwafise, Arnauld},
+  journal = {Preprints},
+  year    = {2026},
+  doi     = {10.20944/preprints202611.2203.v1},
+  url     = {https://www.preprints.org/manuscript/202611.2203/v1}
+}
 @software{pohrl_software_2026,
   title   = {{PO-HRL}: Partial-Order Hierarchical Reinforcement Learning},
-  author  = {Arnauld Mesinga Mwafise},
+  author  = {Mesinga Mwafise, Arnauld},
   year    = {2026},
-  version = {1.0.0},
+  version = {1.0.1},
   doi     = {10.5281/zenodo.24354350},
   url     = {https://github.com/arnauldmwafise/po-hrl}
 }
 ```
-
-A citation for the accompanying paper will be added here once it is publicly available.
 
 ## Licence
 
